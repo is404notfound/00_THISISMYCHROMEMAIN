@@ -27,8 +27,7 @@
     "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
     "lint:fix": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "deploy:fix": "gh-pages -b rebase -d build"
+    "deploy:stg": "gh-pages -b stg -d build"
   },
   "eslintConfig": {
     "extends": [
