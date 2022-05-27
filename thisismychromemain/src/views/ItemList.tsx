@@ -10,7 +10,7 @@ const ItemList: FC<IProps> = (props: IProps) => {
 
   return (
     <ul className="item-list horizontal-list">
-      {itemList.map((item) => (<ItemCardComponent item={item} />))}
+      {itemList.map((item) => (<ItemCardComponent item={item} key={item.title} />))}
     </ul>
   );
 };
