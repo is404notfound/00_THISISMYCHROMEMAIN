@@ -30,7 +30,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "deploy:dev": "gh-pages -b dev -d build",
-    "deploy:stg": "gh-pages -b stg -d build",
+    "deploy:stg": "gh-pages -b stg -d build"
   },
   "eslintConfig": {
     "extends": [
