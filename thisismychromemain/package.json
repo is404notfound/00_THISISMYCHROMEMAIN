@@ -1,6 +1,6 @@
 {
   "homepage": "https://is404notfound.github.io/",
-  "name": "whysoserious",
+  "name": "thisismychromemain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,10 +28,9 @@
     "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
     "lint:fix": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "deploy:dev": "gh-pages -b dev -d build",
-    "deploy:stg": "gh-pages -b stg -d build",
-    "deploy:master": "gh-pages -b master -d build"
-
+    "deploy:stg": "gh-pages -b stg -d build"
   },
   "eslintConfig": {
     "extends": [
